@@ -38,10 +38,10 @@ function selectCard(e){
             //console.log("no match");
             //Hice dos setInterval para ocultar el color y que se hagan al mismo tiempo pero solo resulta una vez bien
             //pero despues de la segunda funciona extraño.
-            setInterval(()=>{
+            setTimeOut(()=>{
                 card.className += "color-hidden";
             },500);
-            setInterval(()=>{
+            setTimeOut(()=>{
                 temp.className += "color-hidden";
             },500);
             clickedCard=null;
