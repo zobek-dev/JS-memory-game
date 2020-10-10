@@ -1,0 +1,46 @@
+.row{
+    display: inline-block;
+}
+
+.card{
+    background: #eee;
+    width: 150px;
+    height: 150px;
+    margin-top:5px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.blueviolet{
+    background-color:blueviolet;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.magenta{
+    background-color: magenta;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+
+.card-hidden{
+    background-color: #eee;
+}
