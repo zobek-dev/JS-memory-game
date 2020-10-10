@@ -36,8 +36,7 @@ function selectCard(e){
         }else if(clickedCard.getAttribute("color-card")!==card.getAttribute("color-card")){
             let temp=clickedCard;
             //console.log("no match");
-            //Hice dos setInterval para ocultar el color y que se hagan al mismo tiempo pero solo resulta una vez bien
-            //pero despues de la segunda funciona extraño.
+            //Esto sirve para ocultar las tarjetas
             setTimeOut(()=>{
                 card.className += "color-hidden";
             },500);
