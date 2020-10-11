@@ -14,7 +14,7 @@ function selectCard(e){
         //caso que se seleccione la misma tarjeta dos veces
         if(card==clickedCard){  
             //console.log("Es la misma tarjeta");
-            setInterval(()=>{
+            setTimeout(()=>{
                 card.className += "color-hidden";
             },1000);
             clickedCard=null;
