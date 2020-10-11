@@ -37,10 +37,10 @@ function selectCard(e){
             let temp=clickedCard;
             //console.log("no match");
             //Esto sirve para ocultar las tarjetas
-            setTimeOut(()=>{
+            setTimeout(()=>{
                 card.className += "color-hidden";
             },500);
-            setTimeOut(()=>{
+            setTimeout(()=>{
                 temp.className += "color-hidden";
             },500);
             clickedCard=null;
